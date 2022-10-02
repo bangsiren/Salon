@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap');
+.bannerSecction {
+    width: 100%;
+    padding-top: 5rem;
+}
+.bannerContent {
+  width: 45%;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    row-gap: 2rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/images/bannerImg.jpg');
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.bannerBox {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 0 16rem;
+    justify-content: space-between;
+}
+.bannerImgSection {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:  url('../../assets/images/Curly-HairOI-removebg-preview.png');
+    width: 45%;
+    height: 60vh;
+}
+.img {
+    position: absolute;
+    top: -5rem;
+}
+
+
+
+
+.button {
+    animation: pulse;
+    animation-iteration-count: infinite;
+    background: black;
+    cursor: pointer;
+    width: 224px;
+    height: 56px;
+    margin: 2rem 0;
+    color: white;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+.bannerFirstBtnIcon {
+    color: #66402B;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
+.bannerTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #000000;
+}
+.lifestyle {
+    color: #F6556C;
+}
+.bannerDescription {
+    width: 512px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 1rem;
+    color: #000000;
+}
+
+.secondBtn {
+    border: none;
+    border-radius: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    margin: 2.6rem 0;
+    font-size: 16px;
+    line-height: 24px;
+    width: 179px;
+    height: 58px;
+    background: #F6556C;
+    border-radius: 35px;
+}
+
+.bannerSecondBtnIcon {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-right: 5px;
+}
+
+
+
+/* MEDIA QUERRY  */
+@media only screen and (max-width: 1650px) {
+       .bannerImgSection {
+        position: relative;
+        width: 47%;
+        height: 53vh;
+        border-radius: 100%;
+      
+    }
+    .bannerTitle {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        color: #000000;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1534px){
+    .button {
+        height: 48px;
+    }
+    .bannerTitle {
+    padding-right: 5rem;
+    font-size: 45px;
+}
+.bannerDescription{
+    font-size: 16px;
+
+}
+.Banner_secondBtn {
+    height: 45px;
+ }
+ .bannerImgSection{
+    width: 45%;
+    height: 43vh;
+}
+}
+@media only screen and (max-width: 1294px) {
+    .bannerBox{
+        padding: 0rem 10rem;
+    } 
+    .bannerImgSection {
+        width: 45%;
+        height: 44vh;
+    }
+}
+@media only screen and (max-width: 1102px) {
+    .bannerTitle {
+        font-size: 36px;
+    }
+    .bannerDescription {
+        width: 374px;
+        font-size: 14px;
+    }
+    .bannerImgSection{
+        width: 43%;
+        height: 31vh;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    
+     .button {
+        width: 201px;
+        font-size: 13px;
+     }
+    .bannerBox {
+        padding: 0rem 5rem;
+    }
+
+    .secondBtn {
+        font-size: 13px;
+        width: 175px;
+        height: 45px;
+    }
+    }
+    @media only screen and (max-width: 811px) {
+        .bannerSecction {
+            width: 100%;
+            padding-top: 1.5rem;
+        }
+    }
+  
+    @media only screen and (max-width: 800px) {
+        .bannerImgSection{
+            display: none;
+        }
+        .bannerBox {
+            justify-content: center;
+        }
+        .bannerContent {
+            width: 100%;
+        }
+        .bannerTitle {
+            font-size: 33px;
+            line-height: 77px;
+        }
+
+        .bannerDescription{
+            width: 100%;
+            font-size: 19px;
+        }
+    }
+    @media only screen and (max-width: 573px) {
+        .bannerTitle {
+            font-size: 25px;
+            line-height: 40px;
+        }
+        .bannerBox {
+            padding: 0rem 2rem;
+        }
+        .secondBtn {
+            margin-top: 4rem;
+            width: 138px;
+        }
+    }
+    @media only screen and (max-width: 365px) {
+        .bannerTitle {
+            font-size: 48px;
+            line-height: 35px;
+        }
+        .bannerDescription {
+            width: 100%;
+            font-size: 17px;
+        }
+
+        .secondBtn {
+            margin-top: 6rem;
+        }
+    }

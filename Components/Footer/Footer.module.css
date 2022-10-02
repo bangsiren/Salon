@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Poppins:wght@100;200;300&display=swap');
+.footerSection {
+    background: #CADBCA;
+    padding: 4rem 16rem;
+}
+.footerTopSection {
+    display: flex;
+    column-gap: 6rem;
+}
+.aboutVertigo{
+  width: 30%;
+}
+.vertigoNavigation {
+    width: 10%;
+}
+.vertigoDishesSection {
+    width: 10%;
+}
+.socialMediaBox {
+    margin-top: 1rem;
+    width: 30%;
+}
+.vertigoLogo {
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.vertigoAboutConent{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.4725px;
+    padding-top: 1rem;
+    color: #FFFFFF;
+}
+.navLinksTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: #FFFFFF;
+}
+.ul {
+    padding-top: 1rem;
+}
+.navLinks {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.4725px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.vertigoDishes {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: #FFFFFF;
+}
+.vertigoDishesDescription {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.4725px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+.followUs {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.socialMediaBox {
+    display: flex;
+    column-gap: .5rem;
+    cursor: pointer;
+}
+.socialMediaBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #66402B;
+    border-radius: 100px;
+} 
+.footerMidSection{
+    display: flex;
+    column-gap: 6rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+.openingHours {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 29px;
+    letter-spacing: 0.18em;
+    color: #FFFFFF;
+}
+.footerTime {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.4725px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.footerLine {
+    margin-top: 2rem;
+}
+.footerCopyRight {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.4725px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+/* ===================  Media Queries =================   */
+
+@media only screen and (max-width: 1482px) {
+    .footerTopSection {
+        width: 100%;
+        display: flex;
+        column-gap: 6rem;
+        flex-wrap: wrap;
+    }
+    .vertigoDishesSection {
+        width: 30%;
+}
+.aboutVertigo {
+    width: 40%;
+ }
+ .vertigoSocilaIcons {
+    margin-top: 2rem;
+ }
+}
+
+@media only screen and (max-width: 1294px) {
+    .footerSection{
+        padding: 0rem 10rem;
+    } 
+}
+@media only screen and (max-width: 1183px) {
+    .vertigoDishesSection{
+        margin-top: 2rem;
+    }
+    .vertigoAboutConent {
+        font-size: 14.4725px;
+        line-height: 26px;
+    }
+    .navLinks {
+        font-size: 14.4725px;
+        line-height: 26px;
+    }
+    .vertigoDishesDescription {
+        line-height: 26px;
+        font-size: 14.4725px;
+    }
+    .vertigoNavigation {
+        width: 20%;
+    }
+    .aboutVertigo{
+        width: 50%;
+    }
+    .footerTime {
+        font-size: 14.4725px;
+    } 
+}
+@media only screen and (max-width: 1550px) {
+    .footerSection {
+        padding: 4rem 7rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .footerSection {
+        padding: 2rem 5rem;
+    }
+    .vertigoDishesSection{
+        width: 40%;
+    }
+    .footerMidSection{
+        column-gap: 4rem;
+    }
+}
+@media only screen and (max-width: 706px) {
+    .aboutVertigo{
+        width: 100%;
+    }
+    .vertigoNavigation {
+        padding-top: 2rem;
+    }
+.vertigoDishesSection {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+    .vertigoDishesSection {
+        width: 100%;
+    }
+    .footerSection {
+        padding: 2rem 2rem;
+    }
+    .footerMidSection{
+        column-gap: 2rem;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .footerMidSection {
+        flex-direction: column;
+        column-gap: 2rem;
+    }
+    .vertigoNavigation {
+        width: 100%;
+    }
+    .vertigoSocilaIcons {
+        width: 70%;
+    }
+}
